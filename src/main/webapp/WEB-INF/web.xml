@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>Task5Controller</servlet-name>
+        <servlet-class>org.astashonok.userBankList.controller.Task5Controller</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Task5Controller</servlet-name>
+        <url-pattern>/userAndAccounts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Task8Controller</servlet-name>
+        <servlet-class>org.astashonok.userBankList.controller.Task8Controller</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Task8Controller</servlet-name>
+        <url-pattern>/getting</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserAndAccountsController</servlet-name>
+        <servlet-class>org.astashonok.userBankList.controller.UserAndAccountsController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserAndAccountsController</servlet-name>
+        <url-pattern>/UserAndAccountsController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GettingSumAccountsController</servlet-name>
+        <servlet-class>org.astashonok.userBankList.controller.GettingSumAccountsController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GettingSumAccountsController</servlet-name>
+        <url-pattern>/GettingSumAccountsController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GettingRichestUserController</servlet-name>
+        <servlet-class>org.astashonok.userBankList.controller.GettingRichestUserController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GettingRichestUserController</servlet-name>
+        <url-pattern>/GettingRichestUserController</url-pattern>
+    </servlet-mapping>
+
+</web-app>
